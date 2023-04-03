@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Calibri Light</family>
+    <pointsize>8</pointsize>
+    <weight>3</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Login Window</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 25 8pt &quot;Calibri Light&quot;;
+background-color: rgb(14, 24, 33);
+</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="singin_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(121, 143, 140);
+font: 25 8pt &quot;Calibri Light&quot;;
+background-color: rgb(27, 47, 65);
+color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+selection-background-color: rgb(121, 143, 140);</string>
+    </property>
+    <property name="text">
+     <string>Sing in</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="singup_button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(121, 143, 140);
+font: 25 8pt &quot;Calibri Light&quot;;
+background-color: rgb(27, 47, 65);
+color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+selection-background-color: rgb(121, 143, 140);</string>
+    </property>
+    <property name="text">
+     <string>Sing up</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_line">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>250</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>8</pointsize>
+      <weight>3</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(121, 143, 140);
+color: rgb(255, 255, 255);
+font: 25 8pt &quot;Calibri Light&quot;;
+background-color: rgb(27, 47, 65);</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pw_line">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>250</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(121, 143, 140);
+color: rgb(255, 255, 255);
+font: 25 8pt &quot;Calibri Light&quot;;
+background-color: rgb(27, 47, 65);</string>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
